@@ -1,4 +1,4 @@
-# Human Life Cycle Project
+![image](https://github.com/MGWilllin/public_Human_Life_HTML_CSS_JAVASCRIPT/assets/90008306/0153e5b7-6902-46c2-9b07-9aaaded5b248)# Human Life Cycle Project
 This project is a simple HTML webpage that illustrates the human life cycle using images and text. It allows users to interactively explore different stages of life and includes a feature where users can decide when to have a kid.
 
 ## Clone this repository to your local machine.
@@ -20,6 +20,11 @@ images/: Directory containing image files representing different life stages.
 
 ### Starting the HTML Page:
 When you first open the HTML page, you will be presented with the following interface. Notice that the "Have a kid" button is available to press. Once pressed, you will have a kid with age 0. As you get older, the kid will also age accordingly.
+
+![Starting Page](https://raw.githubusercontent.com/MGWilllin/public_Human_Life_HTML_CSS_JAVASCRIPT/0d19c8e43297ad95b1313d07e6367e59e0346285/Demo/presentationPage.PNG)
+
+### Decide When You Want To Have a Kid:
+Navigate to the age where you would want to have a kid.
 
 ![Starting Page](https://raw.githubusercontent.com/MGWilllin/public_Human_Life_HTML_CSS_JAVASCRIPT/0d19c8e43297ad95b1313d07e6367e59e0346285/Demo/AgeForKid.PNG)
 
