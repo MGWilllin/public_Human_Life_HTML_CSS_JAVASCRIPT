@@ -5,11 +5,12 @@ This project is a simple HTML webpage that illustrates the human life cycle usin
 Open the index.html file in your web browser.
 Use the (+) and (-) buttons to adjust the age input and explore different life stages.
 Optionally, click the "Have Kid" button to decide when to have a kid.
-File Structure
 
 
-## The project files are organized as follows:
 
+## File Structure
+
+The project files are organized as follows:
 index.html: The main HTML file containing the structure and content of the webpage.
 styles.css: The CSS file containing the styles for the webpage layout and design.
 script.js: The JavaScript file containing the logic for dynamic content and user interactions.
