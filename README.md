@@ -13,5 +13,4 @@ styles.css: The CSS file containing the styles for the webpage layout and design
 script.js: The JavaScript file containing the logic for dynamic content and user interactions.
 images/: Directory containing image files representing different life stages.
 
-![Alt Text]([relative/path/to/image.png](https://github.com/MGWilllin/public_Human_Life_HTML_CSS_JAVASCRIPT/blob/0d19c8e43297ad95b1313d07e6367e59e0346285/Demo/AgeForKid.PNG)https://github.com/MGWilllin/public_Human_Life_HTML_CSS_JAVASCRIPT/blob/0d19c8e43297ad95b1313d07e6367e59e0346285/Demo/AgeForKid.PNG)
-
+![Age for Kid](https://raw.githubusercontent.com/MGWilllin/public_Human_Life_HTML_CSS_JAVASCRIPT/0d19c8e43297ad95b1313d07e6367e59e0346285/Demo/AgeForKid.PNG)
