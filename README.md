@@ -14,5 +14,5 @@ script.js: The JavaScript file containing the logic for dynamic content and user
 images/: Directory containing image files representing different life stages.
 
 ![Age for Kid](https://raw.githubusercontent.com/MGWilllin/public_Human_Life_HTML_CSS_JAVASCRIPT/0d19c8e43297ad95b1313d07e6367e59e0346285/Demo/AgeForKid.PNG)
-![Age for Kid](https://raw.githubusercontent.com/MGWilllin/public_Human_Life_HTML_CSS_JAVASCRIPT/0d19c8e43297ad95b1313d07e6367e59e0346285/Demo/KidAge.PNG)
-![Age for Kid](https://raw.githubusercontent.com/MGWilllin/public_Human_Life_HTML_CSS_JAVASCRIPT/0d19c8e43297ad95b1313d07e6367e59e0346285/Demo/KidAge.PNG)
+![Age for Kid](https://raw.githubusercontent.com/MGWilllin/public_Human_Life_HTML_CSS_JAVASCRIPT/0d19c8e43297ad95b1313d07e6367e59e0346285/Demo/kidAge.PNG)
+![Age for Kid](https://raw.githubusercontent.com/MGWilllin/public_Human_Life_HTML_CSS_JAVASCRIPT/0d19c8e43297ad95b1313d07e6367e59e0346285/Demo/kidAge.PNG)
