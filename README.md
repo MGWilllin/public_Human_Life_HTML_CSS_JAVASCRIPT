@@ -21,19 +21,19 @@ images/: Directory containing image files representing different life stages.
 ### Starting the HTML Page:
 When you first open the HTML page, you will be presented with the following interface. Notice that the "Have a kid" button is available to press. Once pressed, you will have a kid with age 0. As you get older, the kid will also age accordingly.
 
-![Starting Page](https://raw.githubusercontent.com/MGWilllin/public_Human_Life_HTML_CSS_JAVASCRIPT/0d19c8e43297ad95b1313d07e6367e59e0346285/Demo/presentationPage.PNG)
+<img src="https://github.com/MGWilllin/public_Human_Life_HTML_CSS_JAVASCRIPT/raw/eabea60635c6815f9650d27a9c6e7cb268b72260/Demo/presentationPage.PNG" alt="Presentation Page" width="600" height="400">
 
 ### Decide When You Want To Have a Kid:
 Navigate to the age where you would want to have a kid.
 
-![Starting Page](https://raw.githubusercontent.com/MGWilllin/public_Human_Life_HTML_CSS_JAVASCRIPT/0d19c8e43297ad95b1313d07e6367e59e0346285/Demo/AgeForKid.PNG)
+<img src="https://github.com/MGWilllin/public_Human_Life_HTML_CSS_JAVASCRIPT/raw/eabea60635c6815f9650d27a9c6e7cb268b72260/Demo/AgeForKid.PNG" alt="AgeForKid Page" width="600" height="400">
 
 ### Example: Kid Age at 26:
 In this example, when you reach the age of 26, your kid will be 1 year old.
 
-![Kid Age at 26](https://raw.githubusercontent.com/MGWilllin/public_Human_Life_HTML_CSS_JAVASCRIPT/0d19c8e43297ad95b1313d07e6367e59e0346285/Demo/kidAge.PNG)
+<img src="https://github.com/MGWilllin/public_Human_Life_HTML_CSS_JAVASCRIPT/raw/eabea60635c6815f9650d27a9c6e7cb268b72260/Demo/kidAge.PNG" alt="kidAge Page" width="600" height="400">
 
 ### Example: Kid Age at 56:
 Here you can see that when you are 56 years old, your kid will be 31 years old.
 
-![Kid Age at 56](https://raw.githubusercontent.com/MGWilllin/public_Human_Life_HTML_CSS_JAVASCRIPT/0d19c8e43297ad95b1313d07e6367e59e0346285/Demo/kidAge2.PNG)
+<img src="https://github.com/MGWilllin/public_Human_Life_HTML_CSS_JAVASCRIPT/raw/eabea60635c6815f9650d27a9c6e7cb268b72260/Demo/kidAge2.PNG" alt="kidAge2 Page" width="600" height="400">
