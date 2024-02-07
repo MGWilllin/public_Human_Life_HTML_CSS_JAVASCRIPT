@@ -13,8 +13,19 @@ styles.css: The CSS file containing the styles for the webpage layout and design
 script.js: The JavaScript file containing the logic for dynamic content and user interactions.
 images/: Directory containing image files representing different life stages.
 
-<img src="https://raw.githubusercontent.com/MGWilllin/public_Human_Life_HTML_CSS_JAVASCRIPT/0d19c8e43297ad95b1313d07e6367e59e0346285/Demo/AgeForKid.PNG" alt="Age for Kid" width="900" height="500">
-<img src="https://raw.githubusercontent.com/MGWilllin/public_Human_Life_HTML_CSS_JAVASCRIPT/0d19c8e43297ad95b1313d07e6367e59e0346285/Demo/kidAge.PNG" alt="Age for Kid" width="900" height="500">
-<img src="https://raw.githubusercontent.com/MGWilllin/public_Human_Life_HTML_CSS_JAVASCRIPT/0d19c8e43297ad95b1313d07e6367e59e0346285/Demo/kidAge2.PNG" alt="Age for Kid" width="900" height="500">
+## Demo:
 
+### Starting the HTML Page:
+When you first open the HTML page, you will be presented with the following interface. Notice that the "Have a kid" button is available to press. Once pressed, you will have a kid with age 0. As you get older, the kid will also age accordingly.
 
+![Starting Page](https://raw.githubusercontent.com/MGWilllin/public_Human_Life_HTML_CSS_JAVASCRIPT/0d19c8e43297ad95b1313d07e6367e59e0346285/Demo/AgeForKid.PNG)
+
+### Example: Kid Age at 26:
+In this example, when you reach the age of 26, your kid will be 1 year old.
+
+![Kid Age at 26](https://raw.githubusercontent.com/MGWilllin/public_Human_Life_HTML_CSS_JAVASCRIPT/0d19c8e43297ad95b1313d07e6367e59e0346285/Demo/kidAge.PNG)
+
+### Example: Kid Age at 56:
+Here you can see that when you are 56 years old, your kid will be 31 years old.
+
+![Kid Age at 56](https://raw.githubusercontent.com/MGWilllin/public_Human_Life_HTML_CSS_JAVASCRIPT/0d19c8e43297ad95b1313d07e6367e59e0346285/Demo/kidAge2.PNG)
