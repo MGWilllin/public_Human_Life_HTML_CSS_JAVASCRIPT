@@ -1,4 +1,4 @@
-![image](https://github.com/MGWilllin/public_Human_Life_HTML_CSS_JAVASCRIPT/assets/90008306/0153e5b7-6902-46c2-9b07-9aaaded5b248)# Human Life Cycle Project
+# Human Life Cycle Project
 This project is a simple HTML webpage that illustrates the human life cycle using images and text. It allows users to interactively explore different stages of life and includes a feature where users can decide when to have a kid.
 
 ## Clone this repository to your local machine.
