@@ -1,5 +1,5 @@
 # Human Life Cycle Project
-## This project is a simple HTML webpage that illustrates the human life cycle using images and text. It allows users to interactively explore different stages of life and includes a feature where users can decide when to have a kid.
+This project is a simple HTML webpage that illustrates the human life cycle using images and text. It allows users to interactively explore different stages of life and includes a feature where users can decide when to have a kid.
 
 ## Clone this repository to your local machine.
 Open the index.html file in your web browser.
