@@ -1,0 +1,54 @@
+/* Center the content vertically and horizontally */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the height of the body to the viewport height */
+}
+/* Fill the header with grey color */
+header {
+    background-color: #808080; /* Grey color */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%; /* Fill the entire width of the viewport */
+}
+/* Make h1 big */
+header h1 {
+    font-size: 50px; /* Adjust the font size as needed */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Add some margin from the top */
+}
+
+.age-input {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.age-input label {
+    font-size: 18px;
+}
+
+.age-input input {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.input-group button {
+    font-size: 20px;
+    margin: 0 10px; /* Add some margin between the buttons and the input */
+}
+
+/* Other styles remain the same */
