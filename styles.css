@@ -1,12 +1,12 @@
-/* Center the content vertically and horizontally */
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Set the height of the body to the viewport height */
-    margin: 0; /* Reset default margin */
-    padding: 0; /* Reset default padding */
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
 }
 /* Fill the header with grey color */
 header {
@@ -50,10 +50,24 @@ main {
 .age-input label {
     font-size: 18px;
 }
+/* Add this rule to center the images */
+.person-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Add some margin from the top */
+}
 
 .age-input input {
     font-size: 20px;
     padding: 5px;
+}
+/* Add this rule to make all images the same size */
+
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
 }
 
 .input-group {
@@ -77,4 +91,9 @@ main {
     height: 50%;
     display: block;
   }  
- 
+  .input-group {
+    overflow: auto;
+}
+.parent-container {
+    overflow: auto;
+}

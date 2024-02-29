@@ -28,6 +28,15 @@ class Person {
         return 'images/senior.jpg';
     }
 
+
+        // Method to get the last person in the tree (the person who doesn't have a child yet)
+        getLastPerson() {
+            if (this.child) {
+                return this.child.getLastPerson();
+            }
+            return this;
+        }
+
     // Method to get characteristic based on age
     getCharacteristic() {
         if (this.age <= 2) {
@@ -49,26 +58,34 @@ class Person {
 let person = new Person(0);
 
 // Function to update display
-function updateDisplay(person, lifeImage, characteristicText, ageInput, depth = 0) {
+function updateDisplay(person, parentDiv, depth = 0) {
     let imageUrl = person.getImageUrl();
     let characteristic = person.getCharacteristic();
     let prefix = ' '.repeat(depth * 2); // Indentation based on depth
 
-    // Update the image and characteristic for the person
-    if (depth === 0) {
-        lifeImage.src = imageUrl;
-        characteristicText.innerHTML = `${prefix}You are ${characteristic} (Age: ${person.age})`;
-        ageInput.value = person.age; // Update the age input field
-    } else {
-        characteristicText.innerHTML += `<br>${prefix}Your child is ${characteristic} (Age: ${person.age})`;
-        let childImage = document.createElement('img'); // Create a new img element for the child
-        childImage.src = imageUrl; // Set the source of the child's image
-        lifeImage.after(childImage); // Insert the child's image after the parent's image
-    }
+    // Create a new div for the person
+    let personDiv = document.createElement('div');
+    personDiv.className = 'person-div'; // Add this line
+    personDiv.style.marginLeft = `${depth * 20}px`; // Indentation based on depth
+
+    // Create an img element for the person
+    let img = document.createElement('img');
+    img.src = imageUrl;
+
+    // Create a p element for the characteristic
+    let p = document.createElement('p');
+    p.textContent = `${prefix}This person is ${characteristic} (Age: ${person.age})`;
+
+    // Append the img and p elements to the person's div
+    personDiv.appendChild(img);
+    personDiv.appendChild(p);
+
+    // Append the person's div to the parent's div
+    parentDiv.appendChild(personDiv);
 
     // If the person has a child, update the display for the child
     if (person.child) {
-        updateDisplay(person.child, lifeImage, characteristicText, ageInput, depth + 1);
+        updateDisplay(person.child, personDiv, depth + 1);
     }
 }
 
@@ -77,15 +94,15 @@ document.addEventListener('DOMContentLoaded', function() {
     const ageInput = document.getElementById('age');
     const decrementButton = document.getElementById('decrement');
     const incrementButton = document.getElementById('increment');
-    const lifeImage = document.getElementById('life-image');
-    const characteristicText = document.getElementById('characteristic-text');
+    const treeDiv = document.getElementById('tree'); // Get the div for the generational tree
     const haveKidButton = document.getElementById('have-kid-btn'); // Get the "Have a Kid" button
 
     // Event listener for the "Have a Kid" button
     haveKidButton.addEventListener('click', function() {
-        if (!person.child) {
-            person.haveChild();
-            updateDisplay(person, lifeImage, characteristicText, ageInput);
+        let lastPerson = person.getLastPerson(); // Get the last person in the tree
+        if (!lastPerson.child) {
+            lastPerson.haveChild();
+            updateDisplay(lastPerson.child, treeDiv, lastPerson.age);
         }
     });
 
@@ -93,18 +110,23 @@ document.addEventListener('DOMContentLoaded', function() {
     decrementButton.addEventListener('click', function() {
         if (person.age > 0) {
             person.age--;
-            updateDisplay(person, lifeImage, characteristicText, ageInput);
+            ageInput.value = person.age; // Update the age input field
+            treeDiv.innerHTML = ''; // Clear the generational tree
+            updateDisplay(person, treeDiv);
         }
     });
+    
 
     // Event listener for increment button
     incrementButton.addEventListener('click', function() {
         if (person.age < 100) {
             person.incrementAge();
-            updateDisplay(person, lifeImage, characteristicText, ageInput);
+            ageInput.value = person.age; // Update the age input field
+            treeDiv.innerHTML = ''; // Clear the generational tree
+            updateDisplay(person, treeDiv);
         }
     });
 
     // Initial display setup
-    updateDisplay(person, lifeImage, characteristicText, ageInput);
+    updateDisplay(person, treeDiv);
 });
